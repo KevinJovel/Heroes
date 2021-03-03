@@ -19,7 +19,7 @@ const routes: Routes = [
         path:'agregar', component:AgregarComponent
       },
       {
-        path:'editar:id',component:AgregarComponent
+        path:'editar/:id',component:AgregarComponent
       },
       {
         path:'buscar', component: BuscarComponent
