@@ -19,4 +19,7 @@ export class HeroesService {
   getHeroeById(id):Observable<Heroe>{
     return this.http.get<Heroe>(`${this.urlBase}/heroes/${id}`);
   }
+  getSugerencias(termino):Observable<Heroe[]>{
+    return this.http.get<Heroe[]>(`${this.urlBase}/heroes/?q=${termino}&_limit=6`);
+  }
 }
