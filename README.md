@@ -1,8 +1,9 @@
-<<<<<<< HEAD
+
 # HeroesApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
-
+## Use JsonServer to run the json File
+json-server --watch db.json
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -29,4 +30,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # Heroes
 Crud de heroes, desarrollado en angular con el curso de Fernando Herrera
->>>>>>> 1eebdffe49856befaea84458f0fbfa31bb05e46c
